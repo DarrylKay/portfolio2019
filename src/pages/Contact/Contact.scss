@@ -1,0 +1,109 @@
+$primary-font: "Raleway", sans-serif;
+$secondary-font: "Open Sans", sans-serif;
+
+#contact {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  .nav-section {
+    position: relative;
+    width: 40%;
+    height: 100%;
+    z-index: 2;
+  }
+  .main-section {
+    position: relative;
+    margin: 0 auto;
+    height: 80vh;
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    h1 {
+      font-family: $primary-font;
+        font-weight: 600;
+        font-size: 320%;
+        text-align: center;
+        text-transform: capitalize;
+        color: #161629;
+    }
+    h3 {
+      font-family: $secondary-font;
+      color: rgb(114, 114, 114);
+      font-size: 1.2rem;
+      font-weight: 500;
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    p {
+      color: #161629;
+      font-family: $primary-font;
+      font-weight: 600;
+      font-size: 280%;
+    }
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #contact {
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    
+    .nav-section {     
+      width: 100%;
+      
+    }
+    .main-section {
+      padding-top: 80px;
+     
+      height: 100%;
+      width: 80%;
+      margin: 0 auto;
+     
+     
+      h1 {
+        font-family: $primary-font;
+          font-weight: 600;
+          font-size: 180%;
+          text-align: center;
+          text-transform: capitalize;
+          color: #161629;
+      }
+      h3 {
+        font-family: $secondary-font;
+        color: rgb(114, 114, 114);
+        font-size: 1rem;
+        font-weight: 500;
+        text-align: center;
+      }
+      p {
+        color: #161629;
+        font-family: $primary-font;
+        font-weight: 600;
+        font-size: 130%;
+      }
+  
+    }
+  }
+}

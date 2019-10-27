@@ -1,0 +1,378 @@
+$primary-font: "Raleway", sans-serif;
+$secondary-font: "Open Sans", sans-serif;
+
+#projects {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  .nav-section {
+    position: relative;
+    width: 40%;
+    height: 100%;
+    z-index: 2;
+  }
+  .main-section {
+    position: relative;
+    margin: 0 auto;
+    height: 100vh;
+    width: 60%;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .first-column {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      width: 100%;
+      height: 100%;
+      .image-box-nxt {
+        background: url("../../assets/nxt-project.jpg");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        border-bottom: 5px solid #161629;
+        border-right: 5px solid #161629;
+        cursor: pointer;
+        .project-info {
+          width: 100%;
+          height: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          background: rgba(65, 65, 65, 0.9);
+          -webkit-transition: all 0.4s ease-in-out;
+          transition: all 0.4s ease-in-out;
+          opacity: 0;
+          &:hover {
+            opacity: 1;
+          }
+          h1 {
+            font-family: $primary-font;
+            font-weight: 600;
+            text-transform: capitalize;
+            font-size: 2rem;
+            color: rgb(212, 212, 212);
+          }
+          .button {
+            margin: 15px auto;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: 900;
+            font-size: 1.4rem;
+            border: 1px solid white;
+            border: 1px solid #292936;
+            background: #292936;
+            color: rgb(114, 114, 114);
+            text-transform: capitalize;
+            -webkit-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+            &:hover {
+              color: white;
+              background: #161629;
+              border: 1px solid #161629;
+            }
+          }
+        }
+      }
+
+      .image-box-jniks {
+        background: url("../../assets/jniks-project.jpg");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        border-top: 5px solid #161629;
+        border-right: 5px solid #161629;
+        cursor: pointer;
+        .project-info {
+          width: 100%;
+          height: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          background: rgba(65, 65, 65, 0.9);
+          -webkit-transition: all 0.4s ease-in-out;
+          transition: all 0.4s ease-in-out;
+          opacity: 0;
+          &:hover {
+            opacity: 1;
+          }
+          h1 {
+            font-family: $primary-font;
+            font-weight: 600;
+            text-transform: capitalize;
+            font-size: 2rem;
+            color: rgb(212, 212, 212);
+          }
+          .button {
+            margin: 15px auto;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: 900;
+            font-size: 1.4rem;
+            border: 1px solid white;
+            border: 1px solid #292936;
+            background: #292936;
+            color: rgb(114, 114, 114);
+            text-transform: capitalize;
+            -webkit-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+            &:hover {
+              color: white;
+              background: #161629;
+              border: 1px solid #161629;
+            }
+          }
+        }
+      }
+    }
+  }
+  .second-column {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+    .image-box-bullandco {
+      background: url("../../assets/bullandco-project.jpg");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%;
+      border-bottom: 5px solid #161629;
+      border-left: 5px solid #161629;
+      cursor: pointer;
+      .project-info {
+        width: 100%;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        background: rgba(65, 65, 65, 0.9);
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+        opacity: 0;
+        &:hover {
+          opacity: 1;
+        }
+        h1 {
+          font-family: $primary-font;
+          font-weight: 600;
+          text-transform: capitalize;
+          font-size: 2rem;
+          color: rgb(212, 212, 212);
+        }
+        .button {
+          margin: 15px auto;
+          text-decoration: none;
+          padding: 10px 20px;
+          font-weight: 900;
+          font-size: 1.4rem;
+          border: 1px solid white;
+          border: 1px solid #292936;
+          background: #292936;
+          color: rgb(114, 114, 114);
+          text-transform: capitalize;
+          -webkit-transition: all 0.4s ease-in-out;
+          transition: all 0.4s ease-in-out;
+          &:hover {
+            color: white;
+            background: #161629;
+            border: 1px solid #161629;
+          }
+        }
+      }
+    }
+
+    .image-box-citybreaks {
+      background: url("../../assets/city-breaks-project.jpg");
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%;
+      border-top: 5px solid #161629;
+      border-left: 5px solid #161629;
+      cursor: pointer;
+      .project-info {
+        width: 100%;
+        height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        background: rgba(65, 65, 65, 0.9);
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+        opacity: 0;
+        &:hover {
+          opacity: 1;
+        }
+        h1 {
+          font-family: $primary-font;
+          font-weight: 600;
+          text-transform: capitalize;
+          font-size: 2rem;
+          color: rgb(212, 212, 212);
+        }
+        .button {
+          margin: 15px auto;
+          text-decoration: none;
+          padding: 10px 20px;
+          font-weight: 900;
+          font-size: 1.4rem;
+          border: 1px solid white;
+          border: 1px solid #292936;
+          background: #292936;
+          color: rgb(114, 114, 114);
+          text-transform: capitalize;
+          -webkit-transition: all 0.4s ease-in-out;
+          transition: all 0.4s ease-in-out;
+          &:hover {
+            color: white;
+            background: #161629;
+            border: 1px solid #161629;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #projects {
+    .main-section {
+      height: 100%;
+      overflow: auto;
+      overflow-x: hidden;
+      .first-column {
+        grid-template-rows: 1fr 1fr;
+      }
+      .second-column {
+        grid-template-rows: 1fr 1fr;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #projects {
+    height: 100%;
+    overflow: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    .nav-section {
+      width: 100%;
+      height: 100%;
+    }
+    .main-section {
+      overflow: auto;
+      height: 100vh;
+      width: 100%;
+      grid-template-columns: 1fr;
+      .first-column {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 40px;
+
+        .image-box-nxt {
+          border-bottom: 5px solid #161629;
+          border-right: none;
+
+          .project-info {
+            h1 {
+              font-size: 1.6rem;
+            }
+          }
+        }
+
+        .image-box-jniks {
+          border-bottom: 5px solid #161629;
+          border-top: none;
+          border-right: none;
+
+          .project-info {
+            h1 {
+              font-size: 1.6rem;
+            }
+          }
+        }
+      }
+    }
+    .second-column {
+      grid-template-columns: 1fr;
+      padding-top: 40px;
+      .image-box-bullandco {
+        border-bottom: 5px solid #161629;
+        border-left: none;
+
+        .project-info {
+          h1 {
+            font-size: 1.6rem;
+          }
+        }
+      }
+
+      .image-box-citybreaks {
+        border-bottom: 5px solid #161629;
+        border-top: none;
+        border-left: none;
+       
+        .project-info {
+          h1 {
+            font-size: 1.6rem;
+          }
+        }
+      }
+    }
+  }
+}
