@@ -39,13 +39,10 @@ export class Nav extends Component {
           <div className="nav-container" ref={el => (this.info = el)}>
             <div className="nav-bar">
               <Link to="/" className="link">
-                Home
+                Projects
               </Link>
               <Link to="/about" className="link">
                 About
-              </Link>
-              <Link to="/projects" className="link">
-                Projects
               </Link>
               <Link to="/contact" className="link">
                 Contact
@@ -85,13 +82,10 @@ export class Nav extends Component {
             }
           >
             <Link to="/" className="link">
-              Home
+              Projects
             </Link>
             <Link to="/about" className="link">
               About
-            </Link>
-            <Link to="/projects" className="link">
-              Projects
             </Link>
             <Link to="/contact" className="link">
               Contact

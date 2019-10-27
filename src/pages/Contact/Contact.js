@@ -46,7 +46,7 @@ export class Contact extends Component {
           </h1>
           <h3 ref={el => (this.secondLine = el)}>
             Drop me an email to the address below to discuss how I can help you.
-            I look forward to working together.
+            I look forward to us working together.
           </h3>
           <p ref={el => (this.thirdLine = el)}>kay_darryl@hotmail.com</p>
         </div>

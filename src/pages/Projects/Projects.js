@@ -38,8 +38,9 @@ export class Projects extends Component {
       <div id="projects">
         <div className="nav-section">
           <Nav
-            title="Projects"
-            description="Here is a few projects that I have built. Just hover over a section and then select an action."
+            title="Darryl"
+            description="Hi I'm Darryl Kay, a front end web developer based in northamptonshire.  Here is a collection of projects that help demonstrate my skills and
+           abillities as a front end Developer."
           />
         </div>
         <div className="main-section">

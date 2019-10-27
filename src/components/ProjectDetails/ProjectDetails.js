@@ -11,7 +11,6 @@ export class ProjectDetails extends Component {
     this.details = null;
     this.delayOne = null;
     this.delayTwo = null;
-    
   }
 
   componentDidMount() {
@@ -32,7 +31,6 @@ export class ProjectDetails extends Component {
       ease: Power3.easeOut,
       delay: 2
     });
-    
   }
   render() {
     return (
@@ -40,29 +38,23 @@ export class ProjectDetails extends Component {
         <div className="nav">
           <Nav />
         </div>
-        <div className='main' ref={el => (this.details = el)}>
-          <div className="details-header" >
+        <div className="main" ref={el => (this.details = el)}>
+          <div className="details-header">
             <img
               src={this.props.location.state.headerImage}
               alt="Darryl Kay Front End Developer Project Details"
               className="header-image"
             />
-            <div className="link-box" >
-              <a href={`${this.props.location.state.siteUrl}`} className="link">
-                Visit Site
-              </a>
-              <a
-                href={`${this.props.location.state.siteCode}`}
-                className="link"
-              >
-                View Code
-              </a>
-              <Link to="/projects" className="link">
+            <div className="link-box">
+              <Link to="/" className="link">
                 Back To Projects Page
               </Link>
             </div>
           </div>
-          <div className="details-about-section" ref={el => (this.delayOne = el)}>
+          <div
+            className="details-about-section"
+            ref={el => (this.delayOne = el)}
+          >
             <div className="about-box">
               <h2>About The Project</h2>
               <p className="about-description">
