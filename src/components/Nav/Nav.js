@@ -53,15 +53,15 @@ export class Nav extends Component {
               <p>{this.props.description}</p>
             </div>
             <div className="nav-social">
-              <Link to="https://github.com/DarrylKay" className="link">
+              <a href="https://github.com/DarrylKay" className="link">
                 <FaGithub className="icon" />
-              </Link>
-              <Link
-                to="https://www.linkedin.com/in/darryl-kay-72279318a/?trk=people-guest_profile-result-card_result-card_full-click&originalSubdomain=uk"
+              </a>
+              <a
+                href="https://www.linkedin.com/in/darryl-kay-72279318a/?trk=people-guest_profile-result-card_result-card_full-click&originalSubdomain=uk"
                 className="link"
               >
                 <FaLinkedinIn className="icon" />
-              </Link>
+              </a>
             </div>
           </div>
         </div>

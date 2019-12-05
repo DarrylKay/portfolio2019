@@ -265,6 +265,7 @@ $secondary-font: "Open Sans", sans-serif;
       display: block;
       position: relative;
       width: 100%;
+      z-index: 9;
     }
     .main {
       .details-header {
